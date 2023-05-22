@@ -8,9 +8,9 @@ import java.util.logging.Logger;
 
 public class BankConnection {
     public static Connection connect(){
-        String URL = "jdbc:mysql://localhost:3306/mydb3";
+        String URL = "jdbc:mysql://localhost:3306/BankingApplication3";
         String username = "root";
-        String password = "mysql@sit";
+        String password = "march36527";
         Connection connection = null;
         
         try {

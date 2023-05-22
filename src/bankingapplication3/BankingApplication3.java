@@ -49,43 +49,6 @@ public class BankingApplication3 {
                     }
                     bank.openAcoount(account);
                     System.out.println();
-                    
-//                    System.out.println("Select your Account Type");
-//                    System.out.println("1:SavingsAccount");
-//                    System.out.println("2:CurrentAccount");
-//                    System.out.println();
-//                    System.out.print("Enter your choice: ");
-//                    option = scan.nextInt();
-//                    System.out.println();
-//                    
-//                    switch(option){
-//                        case 1:
-//                            number = generateAccountNumber();
-//                    System.out.print("Enter Account Name: ");
-//                    name = scan.next();
-//                           
-//                    scan.nextLine();
-//                    
-//                    System.out.print("Enter Initial Balance: ");
-//                    balance = scan.nextDouble();
-//                    account = new SavingsAccount(number,name,balance);
-//                    bank.openAcoount(account);
-//                    System.out.println();
-//                            break;
-//                        case 2:
-//                            number = generateAccountNumber();
-//                    System.out.print("Enter Account Name: ");
-//                    name = scan.next();
-//                           
-//                    scan.nextLine();
-//                    
-//                    System.out.print("Enter Initial Balance: ");
-//                    balance = scan.nextDouble();
-//                    account = new CurrentAccount(number,name,balance);
-//                    bank.openAcoount(account);
-//                    System.out.println();
-//                            break;
-//                    }
                     break;         
                 case 3:
                     System.out.print("Enter Account Number: ");
